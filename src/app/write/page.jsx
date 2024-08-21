@@ -100,7 +100,7 @@ const WritePage = () => {
         <select className={styles.select} onChange={(e) => setCatSlug(e.target.value)}>
           <option disabled value="">Choose category</option>
           {/* Loop through the categories */}
-          {CATEGORIES.map( cat => <option value={cat}>{cat}</option>)}
+          {CATEGORIES.map( cat => <option key={cat} value={cat}>{cat}</option>)}
         </select>
         <div className={styles.addImg}>
           <label htmlFor="image">Add image</label>

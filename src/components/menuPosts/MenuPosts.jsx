@@ -26,7 +26,7 @@ const MenuPosts = ({ withImage }) => {
     <div className={styles.items}>
       {popularPosts && popularPosts.map((post) => {
         return (
-          <Link href="/" className={styles.item}>
+          <Link href="/" className={styles.item} key={post._id}>
             {withImage && (
               <div className={styles.imageContainer}>
                 <Image src={post.img || "/images/development.jpg"} alt="Post Image" fill className={styles.image} />
