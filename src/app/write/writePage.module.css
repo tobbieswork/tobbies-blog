@@ -1,0 +1,53 @@
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.options {
+  display: flex;
+  gap: 16px;
+}
+
+.select{
+  padding: 10px 0;
+  width: max-content;
+}
+
+.addImg {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input{
+  padding: 12px 15px;
+  font-size: 32px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--textColor);
+  width: 100%;
+}
+
+.input::placeholder{
+  color: #b3b3b1;
+}
+
+.textArea {
+  min-height: 300px;
+  width: 100%;
+}
+
+.publish{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #1a8917;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}

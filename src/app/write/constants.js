@@ -1,0 +1,1 @@
+export const CATEGORIES = ['coding', 'culture', 'design', 'development', 'devops', 'finance', 'health', 'marketing', 'productivity', 'science', 'technology', 'writing'];

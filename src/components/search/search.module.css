@@ -1,0 +1,35 @@
+
+.searchWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+  
+.searchIcon {
+  position: absolute;
+  left: 5px;
+  cursor: pointer;
+}
+
+.searchInput {
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 8px;
+  border: 1px solid var(--textColor);
+  outline: none;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .searchInput {
+    font-size: 14px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .searchInput {
+    font-size: 14px;
+    width: 120px;
+  }
+}
